@@ -1,0 +1,10 @@
+= apt
+Version 1
+
+To update existing, uninstall and install apt packages.
+
+== Parameters
+
+`apt_packages_to_install`:: List of apt packages that should be installed.
+
+`apt_packages_to_remove`:: List of apt packages that should be removed.

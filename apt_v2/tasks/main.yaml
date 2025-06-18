@@ -1,3 +1,4 @@
 - include_tasks: update.yaml
 - include_tasks: uninstall.yaml
 - include_tasks: install.yaml
+- include_tasks: cleanup.yaml

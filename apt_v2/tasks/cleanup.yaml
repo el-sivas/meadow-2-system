@@ -1,0 +1,5 @@
+- name: clean apt cache
+  apt:
+    autoclean: yes
+    autoremove: yes
+    

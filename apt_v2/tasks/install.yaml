@@ -1,0 +1,7 @@
+- name: install apt packages "{{ apt_packages_to_install | default([])}}"
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600
+    name: "{{ apt_packages_to_install }}"
+    state: present
+  when: apt_packages_to_install is defined and apt_packages_to_install | length > 0
